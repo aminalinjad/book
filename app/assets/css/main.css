@@ -132,6 +132,11 @@ blockquote { margin: 28px 0 0; padding: 20px 23px; border-right: 3px solid var(-
   .book-wrap { width: 390px; height: 390px }
   .book-stage { min-height: 445px }
   .hero-copy h1 { font-size: clamp(2.25rem, 10vw, 3.2rem) }
+  .site-shell { padding-bottom: 84px }
+  .price-card { position: fixed; z-index: 20; inset-inline: 0; bottom: 0; width: 100%; min-width: 0; padding: 12px 20px calc(12px + env(safe-area-inset-bottom)); border-radius: 18px 18px 0 0; border-bottom: 0; background: var(--surface-solid); box-shadow: 0 -8px 30px rgba(16,28,44,.12); backdrop-filter: blur(18px) }
+  .price-block > div { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px }
+  .price-label { margin: 0; font-size: .78rem }
+  .price-block strong { font-size: clamp(1.2rem, 5.5vw, 1.55rem) }
 }
 
 
